@@ -25,5 +25,19 @@ and open the template in the editor.
         echo "La division de ".$Numero1." y ".$Numero2." es ".$division."<br>";
         echo "La multiplicacion de ".$Numero1." y ".$Numero2." es ".$multiplicacion."<br>";
         echo "El residuo de ".$Numero1." y ".$Numero2." es ".$residuo."<br>";
+        //Incremento y decremento
+        //Pre-incremento
+        $temporal = $Numero1;
+        echo "El número que le sucede al ".$temporal. " es ".++$Numero1."<br>";
+        //Post-incremento
+        $temporal = $Numero1++;
+        echo "El número que le sucede al ".$temporal. " es ".$Numero1."<br>";
+        //Pre-Decremento
+        $temporal = $Numero1;
+        echo "El número que le precede al ".$temporal. " es ".--$Numero1."<br>";
+        //Post-Decremento
+        $temporal = $Numero1--;
+        echo "El número que le precede al ".$temporal. " es ".$Numero1."<br>";
+        ?>
     </body>
 </html>
