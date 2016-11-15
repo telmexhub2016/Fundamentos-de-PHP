@@ -12,7 +12,7 @@ and open the template in the editor.
     <body>
         <?php
         // Estructura de control if
-        $Numero1 = 50;
+        $Numero1 = 17;
         $Numero2 = 50;
         if ($Numero1 < $Numero2){
             echo $Numero1." es menor que ".$Numero2."<br>";
@@ -23,6 +23,11 @@ and open the template in the editor.
         else {
             echo $Numero1." = ".$Numero2."<br>";
         }
+        $i = 0;
+        do{
+            echo "i vale".$i++."<br>";
+        }while ($i == $Numero1);
+        echo "i = ".$i;
         ?>
     </body>
 </html>
